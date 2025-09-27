@@ -1,0 +1,12 @@
+graph LR
+    Problema[Problema de Calidad] --> M[Maquinaria]
+    Problema --> H[Hombres]
+    Problema --> M2[Material]
+    Problema --> Me[Método]
+    Problema --> E[Entorno]
+    style Problema fill:#E74C3C,stroke:#FFF,color:white
+    style M fill:#FADBD8,stroke:#333
+    style H fill:#FADBD8,stroke:#333
+    style M2 fill:#FADBD8,stroke:#333
+    style Me fill:#FADBD8,stroke:#333
+    style E fill:#FADBD8,stroke:#333

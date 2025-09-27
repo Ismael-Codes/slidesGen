@@ -1,0 +1,16 @@
+graph TD
+    A[7 Herramientas Básicas] --> B[Pareto]
+    A --> C[Ishikawa]
+    A --> D[Histograma]
+    A --> E[Gráfico de Control]
+    A --> F[Dispersión]
+    A --> G[Hoja de Verificación]
+    A --> H[Diagrama de Flujo]
+    style A fill:#2C3E50,stroke:#FFF,color:white
+    style B fill:#FADBD8,stroke:#333
+    style C fill:#FADBD8,stroke:#333
+    style D fill:#FADBD8,stroke:#333
+    style E fill:#FADBD8,stroke:#333
+    style F fill:#FADBD8,stroke:#333
+    style G fill:#FADBD8,stroke:#333
+    style H fill:#FADBD8,stroke:#333

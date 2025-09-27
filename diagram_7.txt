@@ -1,0 +1,7 @@
+graph LR
+    Cambio[Cambio de Proceso]
+    Fuerza1[Fuerzas a Favor] --> Cambio
+    Fuerza2[Fuerzas en Contra] --> Cambio
+    style Fuerza1 fill:#2ECC71,stroke:#333
+    style Fuerza2 fill:#E74C3C,stroke:#333
+    style Cambio fill:#F39C12,stroke:#333,color:white

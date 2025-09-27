@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slides>
+  <slide id="1">
+    <title>Introducción a la Calidad</title>
+    <subtitle>Gestión de Calidad: Ciclo de Vida</subtitle>
+    <body>
+      <bullet>La calidad es un pilar fundamental en proyectos</bullet>
+      <bullet>Fases del ciclo: Planeación → Aseguramiento → Control → Mejora Continua</bullet>
+      <bullet>Impacto: satisfacción del cliente, eficiencia, reducción de costos</bullet>
+      <bullet>Enfoque: PMI, ISO 9001</bullet>
+    </body>
+    <diagram>
+graph TD
+    A[Planeación] --> B[Aseguramiento]
+    B --> C[Control]
+    C --> D[Mejora Continua]
+    D --> A
+    style A fill:#3498DB,stroke:#FFF,color:white
+    style B fill:#2ECC71,stroke:#FFF,color:white
+    style C fill:#E74C3C,stroke:#FFF,color:white
+    style D fill:#F39C12,stroke:#FFF,color:white
+    </diagram>
+  </slide>
+  <slide id="2">
+    <title>Planeación de la Calidad del Proyecto</title>
+    <subtitle>Diseñando el camino hacia la excelencia desde el inicio</subtitle>
+    <body>
+      <bullet>Define cómo se gestionará la calidad en el proyecto</bullet>
+      <bullet>Incluye: estándares, métricas, responsabilidades, herramientas</bullet>
+      <bullet>Se basa en requisitos del cliente (entrevistas, WBS, historias de usuario)</bullet>
+      <bullet>Se integra con otros planes: alcance, cronograma, recursos</bullet>
+    </body>
+    <diagram>
+graph TD
+    A[Plan de Proyecto] --> B[Plan de Calidad]
+    A --> C[Plan de Alcance]
+    A --> D[Plan de Tiempo]
+    B --> E[Métricas de Calidad]
+    B --> F[Criterios de Aceptación]
+    C --> G[Requisitos del Cliente]
+    D --> H[Hitos de Calidad]
+    style B fill:#E67E22,stroke:#333
+    style E fill:#FADBD8,stroke:#333
+    style F fill:#FADBD8,stroke:#333
+    </diagram>
+  </slide>
+  <slide id="3">
+    <title>Aseguramiento de la Calidad</title>
+    <subtitle>Garantizando que los procesos cumplen con los estándares</subtitle>
+    <body>
+      <bullet>Enfoque proactivo y preventivo</bullet>
+      <bullet>Actividades: auditorías, revisiones de proceso, capacitación</bullet>
+      <bullet>Verifica que el Plan de Calidad se esté ejecutando</bullet>
+      <bullet>Genera confianza en el cliente y en el equipo</bullet>
+    </body>
+    <diagram>
+graph LR
+    A[Aseguramiento de Calidad] --> B[Proactivo]
+    A --> C[Procesos]
+    A --> D[Prevención]
+    A --> E[Auditorías]
+    F[Control de Calidad] --> G[Reactivo]
+    F --> H[Productos]
+    F --> I[Detección]
+    F --> J[Inspecciones]
+    style A fill:#3498DB,stroke:#333,color:white
+    style F fill:#E74C3C,stroke:#333,color:white
+    </diagram>
+  </slide>
+  <slide id="4">
+    <title>Control de la Calidad y Mejora Continua</title>
+    <subtitle>Detectar, corregir y mejorar sistemáticamente</subtitle>
+    <body>
+      <bullet>Inspecciones, pruebas, mediciones</bullet>
+      <bullet>Usa 7 herramientas básicas: Pareto, Ishikawa, histogramas, etc.</bullet>
+      <bullet>La mejora es cíclica, no puntual</bullet>
+      <bullet>Metodologías: PDCA, Kaizen, Six Sigma</bullet>
+    </body>
+    <diagram>
+graph TD
+    A[PLAN] --> B[DO]
+    B --> C[CHECK]
+    C --> D[ACT]
+    D --> A
+    style A fill:#27AE60,stroke:#FFF,color:white
+    style B fill:#F39C12,stroke:#FFF,color:white
+    style C fill:#3498DB,stroke:#FFF,color:white
+    style D fill:#E74C3C,stroke:#FFF,color:white
+    </diagram>
+  </slide>
+  <slide id="5">
+    <title>Herramientas para la Gestión de la Calidad</title>
+    <subtitle>Del dato a la decisión: visualizando la calidad</subtitle>
+    <body>
+      <bullet>Recolección: hojas de verificación, encuestas</bullet>
+      <bullet>Análisis: diagramas de Pareto (80/20), histogramas</bullet>
+      <bullet>Relación: diagramas de dispersión</bullet>
+      <bullet>Visualización: gráficos de control, diagramas de flujo</bullet>
+    </body>
+    <diagram>
+graph TD
+    A[7 Herramientas Básicas] --> B[Pareto]
+    A --> C[Ishikawa]
+    A --> D[Histograma]
+    A --> E[Gráfico de Control]
+    A --> F[Dispersión]
+    A --> G[Hoja de Verificación]
+    A --> H[Diagrama de Flujo]
+    style A fill:#2C3E50,stroke:#FFF,color:white
+    style B fill:#FADBD8,stroke:#333
+    style C fill:#FADBD8,stroke:#333
+    style D fill:#FADBD8,stroke:#333
+    style E fill:#FADBD8,stroke:#333
+    style F fill:#FADBD8,stroke:#333
+    style G fill:#FADBD8,stroke:#333
+    style H fill:#FADBD8,stroke:#333
+    </diagram>
+  </slide>
+  <slide id="6">
+    <title>Análisis de Procesos del Proyecto</title>
+    <subtitle>Mapear, medir y mejorar los flujos de trabajo</subtitle>
+    <body>
+      <bullet>Diagramas de flujo: visualizan pasos del proceso</bullet>
+      <bullet>Gráficas de control: monitorean estabilidad</bullet>
+      <bullet>Ishikawa (Causa-Efecto): identifican raíces de problemas</bullet>
+      <bullet>Diagramas de pilares: (ej. Lean) muestran principios fundamentales</bullet>
+    </body>
+    <diagram>
+graph LR
+    Problema[Problema de Calidad] --> M[Maquinaria]
+    Problema --> H[Hombres]
+    Problema --> M2[Material]
+    Problema --> Me[Método]
+    Problema --> E[Entorno]
+    style Problema fill:#E74C3C,stroke:#FFF,color:white
+    style M fill:#FADBD8,stroke:#333
+    style H fill:#FADBD8,stroke:#333
+    style M2 fill:#FADBD8,stroke:#333
+    style Me fill:#FADBD8,stroke:#333
+    style E fill:#FADBD8,stroke:#333
+    </diagram>
+  </slide>
+  <slide id="7">
+    <title>Resolución de Problemas y Prácticas Comunes</title>
+    <subtitle>Técnicas colaborativas para la toma de decisiones</subtitle>
+    <body>
+      <bullet>Lluvia de ideas: generar soluciones creativas</bullet>
+      <bullet>Diagramas de afinidad: agrupar ideas caóticas</bullet>
+      <bullet>Análisis de campo de fuerza: fuerzas a favor y en contra</bullet>
+      <bullet>Revisión por pares: validación cruzada de entregables</bullet>
+    </body>
+    <diagram>
+graph LR
+    Cambio[Cambio de Proceso]
+    Fuerza1[Fuerzas a Favor] --> Cambio
+    Fuerza2[Fuerzas en Contra] --> Cambio
+    style Fuerza1 fill:#2ECC71,stroke:#333
+    style Fuerza2 fill:#E74C3C,stroke:#333
+    style Cambio fill:#F39C12,stroke:#333,color:white
+    </diagram>
+  </slide>
+  <slide id="8">
+    <title>Calidad en la Práctica</title>
+    <subtitle>Aplicando conceptos en un caso real</subtitle>
+    <body>
+      <bullet>Ejercicio integrador:</bullet>
+      <bullet>1. Definir contexto del proyecto</bullet>
+      <bullet>2. Recolectar requisitos del cliente</bullet>
+      <bullet>3. Diseñar plan de calidad</bullet>
+      <bullet>4. Aplicar al menos 2 herramientas (Pareto + Ishikawa)</bullet>
+      <bullet>Preparación para Examen 1: enfoque en aplicación, no memorización</bullet>
+    </body>
+    <diagram>
+graph TD
+    R1[Requisito 1] --> D1[Diseño]
+    R1 --> T1[Prueba]
+    R2[Requisito 2] --> D2[Diseño]
+    R2 --> T2[Prueba]
+    style R1 fill:#3498DB,stroke:#FFF,color:white
+    style R2 fill:#3498DB,stroke:#FFF,color:white
+    style D1 fill:#FADBD8,stroke:#333
+    style D2 fill:#FADBD8,stroke:#333
+    style T1 fill:#FADBD8,stroke:#333
+    style T2 fill:#FADBD8,stroke:#333
+    </diagram>
+  </slide>
+  <slide id="9">
+    <title>Gestión de Riesgos en Proyectos</title>
+    <subtitle>Construyendo una cultura proactiva frente a la incertidumbre</subtitle>
+    <body>
+      <bullet>Riesgo = evento incierto que impacta objetivos</bullet>
+      <bullet>Procesos: identificar, analizar, planificar respuestas, monitorear</bullet>
+      <bullet>Cultura de riesgo: transparencia, aprendizaje, responsabilidad</bullet>
+      <bullet>Plataforma de riesgo: repositorio centralizado de riesgos</bullet>
+    </body>
+    <diagram>
+graph TD
+    A[Identificar Riesgos] --> B[Analizar Riesgos]
+    B --> C[Planificar Respuestas]
+    C --> D[Monitorear Riesgos]
+    D --> A
+    style A fill:#3498DB,stroke:#FFF,color:white
+    style B fill:#F39C12,stroke:#FFF,color:white
+    style C fill:#2ECC71,stroke:#FFF,color:white
+    style D fill:#9B59B6,stroke:#FFF,color:white
+    </diagram>
+  </slide>
+  <slide id="10">
+    <title>Herramientas y PMBOK en Gestión de Riesgos</title>
+    <subtitle>De la teoría a la práctica con estándares internacionales</subtitle>
+    <body>
+      <bullet>WBS: identifica riesgos por paquete de trabajo</bullet>
+      <bullet>Diagramas de red: analizan impacto en ruta crítica</bullet>
+      <bullet>Análisis costo-beneficio: ¿vale la pena mitigar?</bullet>
+      <bullet>Tipos de contrato: fijo, tiempo y materiales, incentivos</bullet>
+    </body>
+    <diagram>
+graph TD
+    WBS[Work Breakdown Structure] --> Paq1[Paquete 1]
+    WBS --> Paq2[Paquete 2]
+    Paq1 --> R1[Riesgo: Retraso]
+    Paq2 --> R2[Riesgo: Sobrecosto]
+    style WBS fill:#2C3E50,stroke:#FFF,color:white
+    style Paq1 fill:#FADBD8,stroke:#333
+    style Paq2 fill:#FADBD8,stroke:#333
+    style R1 fill:#E74C3C,stroke:#FFF,color:white
+    style R2 fill:#E74C3C,stroke:#FFF,color:white
+    </diagram>
+  </slide>
+  <slide id="11">
+    <title>Matriz de Riesgos y Política Organizacional</title>
+    <subtitle>Priorizando y respondiendo a lo que realmente importa</subtitle>
+    <body>
+      <bullet>Matriz de riesgos: cruza probabilidad vs impacto</bullet>
+      <bullet>Niveles: Crítico, Alto, Medio, Bajo</bullet>
+      <bullet>Política de riesgos: define tolerancia, roles, umbrales</bullet>
+      <bullet>Gestión por programa: riesgos a nivel estratégico</bullet>
+    </body>
+    <diagram>
+graph TD
+    A[Alta Probabilidad] --> B[Alto Impacto: Crítico]
+    A --> C[Medio Impacto: Alto]
+    A --> D[Bajo Impacto: Medio]
+    E[Media Probabilidad] --> F[Alto Impacto: Alto]
+    E --> G[Medio Impacto: Medio]
+    E --> H[Bajo Impacto: Bajo]
+    I[Baja Probabilidad] --> J[Alto Impacto: Medio]
+    I --> K[Medio Impacto: Bajo]
+    I --> L[Bajo Impacto: Aceptable]
+    style B fill:#E74C3C,stroke:#FFF,color:white
+    style F fill:#E67E22,stroke:#FFF,color:white
+    style C fill:#E67E22,stroke:#FFF,color:white
+    style D fill:#F39C12,stroke:#FFF,color:white
+    style G fill:#F39C12,stroke:#FFF,color:white
+    style J fill:#F39C12,stroke:#FFF,color:white
+    style H fill:#2ECC71,stroke:#FFF,color:white
+    style K fill:#2ECC71,stroke:#FFF,color:white
+    style L fill:#27AE60,stroke:#FFF,color:white
+    </diagram>
+  </slide>
+  <slide id="12">
+    <title>Gestión Centrada en el Cliente y Norma ISO 31000</title>
+    <subtitle>Integrando calidad, riesgo y valor para el cliente</subtitle>
+    <body>
+      <bullet>ISO 31000: principios universales de gestión de riesgos</bullet>
+      <bullet>Enfoque en valor para las partes interesadas</bullet>
+      <bullet>Gestión de portafolio: priorización estratégica</bullet>
+      <bullet>Calidad y riesgo son dos caras de la misma moneda</bullet>
+    </body>
+    <diagram>
+graph TD
+    A[ISO 31000] --> B[Integrado]
+    A --> C[Estructurado]
+    A --> D[Personalizado]
+    A --> E[Inclusivo]
+    A --> F[Dinámico]
+    A --> G[Mejora Continua]
+    style A fill:#2C3E50,stroke:#FFF,color:white
+    style B fill:#FADBD8,stroke:#333
+    style C fill:#FADBD8,stroke:#333
+    style D fill:#FADBD8,stroke:#333
+    style E fill:#FADBD8,stroke:#333
+    style F fill:#FADBD8,stroke:#333
+    style G fill:#FADBD8,stroke:#333
+    </diagram>
+  </slide>
+  <slide id="13">
+    <title>Riesgo y Planeación Estratégica</title>
+    <subtitle>Vinculando decisiones tácticas con objetivos estratégicos</subtitle>
+    <body>
+      <bullet>Alianzas estratégicas: compartir riesgos y beneficios</bullet>
+      <bullet>Auditoría de riesgos: evaluación independiente</bullet>
+      <bullet>Lecciones aprendidas: base para mejora futura</bullet>
+      <bullet>El riesgo no es solo un problema, es una oportunidad</bullet>
+    </body>
+    <diagram>
+graph LR
+    Incertidumbre[Incertidumbre] --> Amenaza[Amenaza&lt;br&gt;(Impacto negativo)]
+    Incertidumbre --> Oportunidad[Oportunidad&lt;br&gt;(Impacto positivo)]
+    style Amenaza fill:#E74C3C,stroke:#FFF,color:white
+    style Oportunidad fill:#2ECC71,stroke:#FFF,color:white
+    style Incertidumbre fill:#F39C12,stroke:#333
+    </diagram>
+  </slide>
+  <slide id="14">
+    <title>Aplicación Práctica de la Gestión de Riesgos</title>
+    <subtitle>Del análisis a la acción concreta</subtitle>
+    <body>
+      <bullet>Calcular costo del riesgo: impacto × probabilidad</bullet>
+      <bullet>Calendarización basada en riesgos: buffer de tiempo</bullet>
+      <bullet>Listas de cotejo: asegurar cobertura de riesgos</bullet>
+      <bullet>Preparación para Examen 2: enfoque en análisis de casos</bullet>
+    </body>
+    <diagram>
+graph TD
+    Checklist[Lista de Cotejo] --> I1[¿Identificados todos los riesgos?]
+    Checklist --> I2[¿Analizados probabilidad/impacto?]
+    Checklist --> I3[¿Plan de respuesta definido?]
+    Checklist --> I4[¿Asignado responsable?]
+    Checklist --> I5[¿Monitoreo programado?]
+    style Checklist fill:#2C3E50,stroke:#FFF,color:white
+    style I1 fill:#FADBD8,stroke:#333
+    style I2 fill:#FADBD8,stroke:#333
+    style I3 fill:#FADBD8,stroke:#333
+    style I4 fill:#FADBD8,stroke:#333
+    style I5 fill:#FADBD8,stroke:#333
+    </diagram>
+  </slide>
+  <slide id="15">
+    <title>Proyecto Integrador Final</title>
+    <subtitle>Demostrando competencia en calidad y gestión de riesgos</subtitle>
+    <body>
+      <bullet>Cada equipo presenta su caso de estudio</bullet>
+      <bullet>Evaluación con rúbrica:</bullet>
+      <bullet>- Claridad del plan de calidad</bullet>
+      <bullet>- Profundidad del análisis de riesgos</bullet>
+      <bullet>- Aplicación de herramientas</bullet>
+      <bullet>- Propuestas de mejora</bullet>
+      <bullet>Retroalimentación entre pares y docente</bullet>
+    </body>
+    <diagram>
+graph TD
+    Proyecto[Proyecto Final] --> C1[Calidad: 30%]
+    Proyecto --> R1[Riesgo: 30%]
+    Proyecto --> H1[Herramientas: 20%]
+    Proyecto --> P1[Presentación: 20%]
+    style Proyecto fill:#2C3E50,stroke:#FFF,color:white
+    style C1 fill:#3498DB,stroke:#FFF,color:white
+    style R1 fill:#E74C3C,stroke:#FFF,color:white
+    style H1 fill:#2ECC71,stroke:#FFF,color:white
+    style P1 fill:#F39C12,stroke:#FFF,color:white
+    </diagram>
+  </slide>
+</slides>

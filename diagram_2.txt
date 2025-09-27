@@ -1,0 +1,11 @@
+graph TD
+    A[Plan de Proyecto] --> B[Plan de Calidad]
+    A --> C[Plan de Alcance]
+    A --> D[Plan de Tiempo]
+    B --> E[Métricas de Calidad]
+    B --> F[Criterios de Aceptación]
+    C --> G[Requisitos del Cliente]
+    D --> H[Hitos de Calidad]
+    style B fill:#E67E22,stroke:#333
+    style E fill:#FADBD8,stroke:#333
+    style F fill:#FADBD8,stroke:#333

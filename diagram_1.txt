@@ -1,0 +1,9 @@
+graph TD
+    A[Planeación] --> B[Aseguramiento]
+    B --> C[Control]
+    C --> D[Mejora Continua]
+    D --> A
+    style A fill:#3498DB,stroke:#FFF,color:white
+    style B fill:#2ECC71,stroke:#FFF,color:white
+    style C fill:#E74C3C,stroke:#FFF,color:white
+    style D fill:#F39C12,stroke:#FFF,color:white

@@ -1,0 +1,11 @@
+graph LR
+    A[Aseguramiento de Calidad] --> B[Proactivo]
+    A --> C[Procesos]
+    A --> D[Prevención]
+    A --> E[Auditorías]
+    F[Control de Calidad] --> G[Reactivo]
+    F --> H[Productos]
+    F --> I[Detección]
+    F --> J[Inspecciones]
+    style A fill:#3498DB,stroke:#333,color:white
+    style F fill:#E74C3C,stroke:#333,color:white

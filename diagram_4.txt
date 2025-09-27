@@ -1,0 +1,9 @@
+graph TD
+    A[PLAN] --> B[DO]
+    B --> C[CHECK]
+    C --> D[ACT]
+    D --> A
+    style A fill:#27AE60,stroke:#FFF,color:white
+    style B fill:#F39C12,stroke:#FFF,color:white
+    style C fill:#3498DB,stroke:#FFF,color:white
+    style D fill:#E74C3C,stroke:#FFF,color:white
